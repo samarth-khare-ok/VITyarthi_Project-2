@@ -21,47 +21,47 @@ This project implements a content-based filtering approach, where:
 - Movies with the highest similarity scores are recommended
 
 FEATURES
- Content-based recommendation system
- Uses CountVectorizer for text processing
- Uses cosine similarity for accurate matching
- Fast and efficient recommendations
- Beginner-friendly and easy to understand
+ -Content-based recommendation system
+ -Uses CountVectorizer for text processing
+ -Uses cosine similarity for accurate matching
+ -Fast and efficient recommendations
+ -Beginner-friendly and easy to understand
 
  TECH STACK
-  Python
-  Pandas
-  SciKit
+  -Python
+  -Pandas
+  -SciKit
   
 HOW TO RUN THE PROGRAM
 
-1️) Clone the Repository
+- Clone the Repository
      git clone https://github.com/samarth-khare-ok/VITyarthi_Project-2
      cd movie-recommender
-2️) Install Dependencies
+- Install Dependencies
      pip install -r requirements.txt
-3️) Run the Program
+  - Run the Program
      python main.py
 
 How It Works
- Movie genres are converted into vectors using CountVectorizer
- A similarity matrix is created using cosine similarity
- The system finds movies with the highest similarity scores
- Top matching movies are recommended to the user
+ -Movie genres are converted into vectors using CountVectorizer
+ -A similarity matrix is created using cosine similarity
+ -The system finds movies with the highest similarity scores
+ -Top matching movies are recommended to the user
 
 Advantages
- Does not require user data
- Simple and fast
- Easy to implement and understand
- Scalable with larger datasets
+ -Does not require user data
+ -Simple and fast
+ -Easy to implement and understand
+ -Scalable with larger datasets
 
 Limitations
- Only considers genres (limited features)
- Does not include user preferences or ratings
- Recommendations may lack personalization 
+ -Only considers genres (limited features)
+ -Does not include user preferences or ratings
+ -Recommendations may lack personalization 
 
 Future Improvements
- Add user-based collaborative filtering
- Use larger datasets (e.g., TMDB, MovieLens)
- Build a web interface using Streamlit
+ -Add user-based collaborative filtering
+ -Use larger datasets (e.g., TMDB, MovieLens)
+ -Build a web interface using Streamlit
  Include ratings and reviews for better accuracy
 
